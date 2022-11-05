@@ -19,7 +19,7 @@ document.getElementById("password_container").innerHTML = `${nome}${cognome}${co
 
 
 
-// Animation
+// Animation (preso online obv😅)
 function decodeText(){
     var text = document.getElementsByClassName('decode-text')[0];
     // debug with
