@@ -34,7 +34,9 @@ body{
 }
 
     .side_sx{
-        width: 50%;
+        width: 52%;
+        margin-top: -40px;
+        margin-left: -26px;
         flex-wrap: nowrap;
         overflow: hidden;
         font-size: 180px;
@@ -104,6 +106,7 @@ body{
             -webkit-transform: translate(-50%, -55%);
             -ms-transform: translate(-50%, -55%);
             transform: translate(-50%, -55%);
+            animation-iteration-count: infinite;
             }
             .text-animation.state-1:before {
             width: 1px;
