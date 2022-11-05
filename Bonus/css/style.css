@@ -43,6 +43,7 @@ body{
         -webkit-text-fill-color: transparent;
         -webkit-text-stroke: white 1px;
         line-height: 130px;
+        box-shadow:0 30px 40px rgba(255, 255, 255, 0.291);
     }
 
         .white_fill{
@@ -61,11 +62,61 @@ body{
 
         .title{
             font-size: 40px;
+            color: #fff;
             font-weight: bold;
             text-align: center;
             padding-bottom: 20px;
-            -webkit-text-stroke: rgba(255, 255, 255, 0.339) 1px;
+            -webkit-text-stroke: rgba(0, 0, 0, 0.339) 1px;
+            line-height: 60px;
         }
+
+            #sicurissima{
+                -webkit-text-fill-color: transparent;
+                -webkit-text-stroke: white 1px;
+                font-size: 75px;
+            }
+
+            /* Animazione */
+            @import url(https://fonts.googleapis.com/css?family=Share+Tech+Mono);
+            .decode-text {
+            width: 100%;
+            font-size: 50px;
+            text-align: center;
+            font-family: "Share Tech Mono", monospace;
+            }
+
+            .text-animation {
+            display: inline-block;
+            position: relative;
+            color: transparent;
+            text-transform: uppercase;
+            }
+
+            .text-animation:before {
+            content: "";
+            color: black;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            background: #0e182d;
+            width: 0;
+            height: 1.2em;
+            -webkit-transform: translate(-50%, -55%);
+            -ms-transform: translate(-50%, -55%);
+            transform: translate(-50%, -55%);
+            }
+            .text-animation.state-1:before {
+            width: 1px;
+            }
+            .text-animation.state-2:before {
+            width: 0.9em;
+            }
+            .text-animation.state-3 {
+            color: #fff;
+            }
+            .text-animation.state-3:before {
+            width: 0;
+            }
 
         #password_container{
             font-size: 25px;
@@ -74,4 +125,5 @@ body{
             padding: 10px 10px;
             background-color: rgba(255, 255, 255, 0.325);
             border-radius: 20px;
+            color: #fff;
             }
