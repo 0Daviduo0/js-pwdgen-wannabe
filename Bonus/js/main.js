@@ -91,7 +91,7 @@ function shuffle(array) {
     return array;
 }
 
-
+// Copy to clipboard
 function copyDivToClipboard() {
     var range = document.createRange();
     range.selectNode(document.getElementById("password_container"));
@@ -100,4 +100,3 @@ function copyDivToClipboard() {
     document.execCommand("copy");
     window.getSelection().removeAllRanges(); // to deselect
    }
-   
