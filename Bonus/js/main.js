@@ -91,6 +91,12 @@ function shuffle(array) {
     return array;
 }
 
+// Demo only stuff
+decodeText();
+
+// beware: refresh button can overlap this timer and cause state mixups
+setInterval(function(){ decodeText(); }, 5000);
+
 // Copy to clipboard
 function copyDivToClipboard() {
     var range = document.createRange();
