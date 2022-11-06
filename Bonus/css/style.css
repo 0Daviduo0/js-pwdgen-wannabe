@@ -43,14 +43,14 @@ body{
         text-align: center;
         white-space: nowrap;
         -webkit-text-fill-color: transparent;
-        -webkit-text-stroke: white 1px;
+        -webkit-text-stroke: rgba(255, 255, 255, 0.72) 1px;
         line-height: 130px;
         box-shadow:0 30px 40px rgba(255, 255, 255, 0.291);
         user-select: none;
     }
 
         .white_fill{
-            -webkit-text-fill-color: #fff;
+            -webkit-text-fill-color: rgba(255, 255, 255, 0.681);
             -webkit-text-stroke: transparent 1px;
         }
 
@@ -76,7 +76,7 @@ body{
 
             #sicurissima{
                 -webkit-text-fill-color: transparent;
-                -webkit-text-stroke: white 1px;
+                -webkit-text-stroke: rgba(255, 255, 255, 0.72) 1px;
                 font-size: 75px;
             }
 
