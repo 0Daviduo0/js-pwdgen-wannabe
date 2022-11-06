@@ -46,6 +46,7 @@ body{
         -webkit-text-stroke: white 1px;
         line-height: 130px;
         box-shadow:0 30px 40px rgba(255, 255, 255, 0.291);
+        user-select: none;
     }
 
         .white_fill{
@@ -70,6 +71,7 @@ body{
             padding-bottom: 20px;
             -webkit-text-stroke: rgba(0, 0, 0, 0.339) 1px;
             line-height: 60px;
+            user-select: none;
         }
 
             #sicurissima{
