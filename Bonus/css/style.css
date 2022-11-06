@@ -121,14 +121,35 @@ body{
             width: 0;
             }
 
-        #password_container{
-            font-size: 25px;
-            font-weight: 600;
-            width: 60%;
-            text-align: center;
-            padding: 10px 10px;
-            background-color: rgba(255, 255, 255, 0.179);
-            border-radius: 20px;
-            color: #fff;
-            box-shadow:0 30px 40px rgba(255, 255, 255, 0.291);
+        .password_box_with_copy{
+            width: 100%;
+            display: flex;
+            justify-content: center;
         }
+
+            #password_container{
+                font-size: 25px;
+                font-weight: 600;
+                width: 50%;
+                text-align: center;
+                padding: 10px 10px;
+                background-color: rgba(255, 255, 255, 0.179);
+                border-radius: 20px;
+                color: #fff;
+                box-shadow:0 30px 40px rgba(255, 255, 255, 0.291);
+            }
+
+            .copy_button{
+                margin-left: 10px;
+                font-size: 25px;
+                font-weight: 600;
+                width: 10%;
+                text-align: center;
+                padding: 10px 10px;
+                background-color: rgba(255, 255, 255, 0.179);
+                border-radius: 20px;
+                color: #fff;
+                box-shadow:0 30px 40px rgba(255, 255, 255, 0.291);
+            }
+
+            .copy_button:hover {background-color: rgba(255, 255, 255, 0.282)}

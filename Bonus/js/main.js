@@ -92,9 +92,12 @@ function shuffle(array) {
 }
 
 
-// Demo only stuff
-decodeText();
-
-// beware: refresh button can overlap this timer and cause state mixups
-setInterval(function(){ decodeText(); }, 10000);
-
+function copyDivToClipboard() {
+    var range = document.createRange();
+    range.selectNode(document.getElementById("password_container"));
+    window.getSelection().removeAllRanges(); // clear current selection
+    window.getSelection().addRange(range); // to select text
+    document.execCommand("copy");
+    window.getSelection().removeAllRanges(); // to deselect
+   }
+   
