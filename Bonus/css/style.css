@@ -130,6 +130,9 @@ body{
         }
 
             #password_container{
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 font-size: 25px;
                 font-weight: 600;
                 width: 50%;
@@ -139,9 +142,13 @@ body{
                 border-radius: 20px;
                 color: #fff;
                 box-shadow:0 30px 40px rgba(255, 255, 255, 0.291);
+                font-family: 'DejaVu Sans Mono', sans-serif;
             }
 
             .copy_button{
+                display: flex;
+                justify-content: center;
+                align-items: center;
                 margin-left: 10px;
                 font-size: 25px;
                 font-weight: 600;
